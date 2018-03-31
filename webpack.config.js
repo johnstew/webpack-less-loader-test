@@ -22,11 +22,6 @@ module.exports = {
             {
                 loader: 'less-loader',
                 options: {
-                    paths: [
-                        'styles/**',
-                        'node_modules/@bower_components',
-                        'node_modules'
-                    ],
                     relativeUrls: true
                 }
             }
